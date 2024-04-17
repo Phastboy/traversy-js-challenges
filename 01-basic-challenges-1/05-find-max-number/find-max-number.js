@@ -1,6 +1,5 @@
 function findMaxNumber(array) {
   let maxNumber=0;
-  console.log(array.length);
   for (let i = 0; i < array.length; i++) {
     if (array[i]>=array[i+1]) {
       maxNumber=array[i];
