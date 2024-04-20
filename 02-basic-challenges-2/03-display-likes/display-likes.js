@@ -1,6 +1,6 @@
 function displayLikes(strArray) {
   let length=strArray.length
-  if (strArray===0) {
+  if (strArray=='') {
     return ('no one likes this');
   } else if (length===1){
     return `${strArray[0]} likes this`;
