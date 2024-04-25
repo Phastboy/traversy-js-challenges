@@ -61,3 +61,5 @@ const check=numbers.every((item) => {
   return item>0;
 })
 console.log(check);
+
+module.exports=evenNumbers;
