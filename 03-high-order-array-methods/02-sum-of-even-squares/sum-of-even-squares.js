@@ -1,7 +1,7 @@
+const evenNumbers=require("../../03-high-order-array-methods/01-simple-examples/simple-examples.js");
+
 function sumOfEvenSquares(numbers) {
-  const evenNumbers=numbers.filter((item) => {
-    return item%2===0;
-  });
+  evenNumbers;
   const squares=evenNumbers.map((item) => {
     return item*item;
   });
